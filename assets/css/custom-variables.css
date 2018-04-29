@@ -1,0 +1,54 @@
+:root{
+    /*========
+    Colors
+    ========= */
+    --main-color-white: #fff;
+    --main-color-black: #222;
+    --main-color-grey: #999;
+    --main-color-link-dark: #2980b9;
+
+    --header-color-white: #fff;
+    --header-color-black: #222;
+    --header-color-grey: #eee;
+    --header-color-link-dark: #2980b9;
+
+    --footer-color-white: #fff;
+    --footer-color-black: #222;
+    --footer-color-grey: #eee;
+    --footer-color-link-dark: #000;
+
+    /*========
+    Font-families
+    ========= */
+    --main-font-family: Arial, sans-serif;
+    --header-font-family: Arial, sans-serif;
+    --footer-font-family: Arial, sans-serif;
+
+    /*========
+    Font-sizes
+    ========= */
+    --main-font-size-normal: 16px;
+    --header-font-size-normal: 16px;
+    --footer-font-size-normal: 16px;
+
+    /*========
+    Font-Weights
+    ========= */
+    --main-font-weight-super-light: 200;
+    --main-font-weight-light: 300;
+    --main-font-weight-regular: 400;
+    --main-font-weight-semi-bold: 500;
+    --main-font-weight-bold: 600;
+
+    --header-font-weight-super-light: 200;
+    --header-font-weight-light: 300;
+    --header-font-weight-regular: 400;
+    --header-font-weight-semi-bold: 500;
+    --header-font-weight-bold: 600;
+
+    --footer-font-weight-super-light: 200;
+    --footer-font-weight-light: 300;
+    --footer-font-weight-regular: 400;
+    --footer-font-weight-semi-bold: 500;
+    --footer-font-weight-bold: 600;
+}

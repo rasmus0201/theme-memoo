@@ -1,0 +1,34 @@
+:root {
+--main-boxed-layout-page-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+--main-boxed-layout-page-breakpoint: 1600px;
+--main-color-headings: #151515;
+--main-color-text: #fff;
+--main-color-text-inverse: #151515;
+--main-color-link: #3498db;
+--main-color-link-hover: #2980b9;
+--main-boxed-layout-body-background-color: #dfe3e8;
+--main-boxed-layout-page-background-color: #fff;
+--header-color-background-scrolled: #3498db;
+--header-color-background: #fff;
+--header-color-background-submenu: #fff;
+--header-color-background-subsubmenu: #fff;
+--header-color-mobile-background: #3498db;
+--header-color-mobile-background-submenu: #2980b9;
+--header-color-mobile-background-subsubmenu: #20638f;
+--header-color-desktop-menuitem-background: #2980b9;
+--header-color-desktop-menuitem-link-hover: #fff;
+--header-color-text-mobile: #fff;
+--header-color-text: #151515;
+--header-color-text-inverse: #fff;
+--header-color-link: #3498db;
+--header-color-link-hover: #2980b9;
+--footer-widgets-background-color: #efefef;
+--footer-background-color: #efefef;
+--footer-widgets-color-text: #000;
+--footer-color-text: #3498db;
+--footer-color-text-inverse: #fff;
+--footer-color-link: #151515;
+--footer-color-link-hover: rgba(21, 21, 21, 0.5);
+--footer-color-memoo: #3A77D1;
+--footer-color-memoo-hover: rgba(58, 119, 209, 0.5);
+}

@@ -1,0 +1,71 @@
+@supports not (display: grid) {
+    /* flexbox fallback is the browser does not support display:grid */
+    #main-header #header-inner-wrapper{
+        display: flex;
+        height: 73px;
+    }
+
+    #menu-2 {
+        display: flex;
+        flex: auto;
+    }
+
+    @media (max-width: 1024px) {
+        #main-header #header-inner-wrapper{
+            display: flex;
+            height: 65px;
+        }
+
+        #menu-2 {
+            display: flex;
+            flex: auto;
+        }
+
+        #menu-2 #navigation-wrapper > ul{
+            justify-content: flex-start;
+        }
+
+        #menu-2 ul li ul{
+            top: 65px;
+        }
+
+        #menu-3,
+        #social-nav,
+        #wpml-nav{
+            display: flex;
+            flex: auto;
+        }
+    }
+
+    @media (max-width: 767px) {
+        #main-header #header-inner-wrapper{
+            display: flex;
+            height: 74px;
+        }
+
+        #menu-1{
+            display: flex;
+            order: 1;
+            flex: 1;
+        }
+
+        #menu-2{
+            display: flex;
+            width: 100%;
+            order: 3;
+            flex: 1;
+        }
+
+        #social-nav{
+            display: none;
+        }
+
+        #social-nav-mobile,
+        #wpml-nav{
+            display: flex;
+            flex: 2;
+            order: 2;
+        }
+    }
+
+}

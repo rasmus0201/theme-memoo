@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-triangle" width='15' height='15'>
+	<path d="M 50,5 95,97.5 5,97.5 z"/>
+  	<polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
+  	<line x1="0" y1="0" x2="15" y2="15" style="stroke:rgb(255,255,255);stroke-width:2" />
+</svg>
